@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Our Memories</title>
+<style text="css/text">
+    
+             body {
+    margin: 0;
+    height: 100vh;
+
+    background-image: url("images1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+	
+             body {font-style: italic;
+			     color: white;
+				 }
+
+				body {
+    animation: fadeSlide 1.5s ease;
+}
+
+@keyframes fadeSlide {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}	 
+         .PHOTO {
+    width: 300px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.PHOTO:hover {
+    transform: scale(1.05);
+}
+					 
+          
+</style>
+</head> 
+
+
+
+<body style="text-align: center;">
+<h1 style="text-align: center;"><font size="8">Our Memories Together</font></h1>
+
+<font size="6"><em>Welcome to our little corner of the internet a place where our memories, laughs, adventures, and love will always have a home, Every page here tells a part of our story, and I can't wait to keep adding more chapters with you</em></font>
+<br><br>
+	
+<h1>ABOUT US</h1>
+
+ <font size="6"><em>Every story has a beginning, and ours started on Ben's birthday  At first, it was just another celebration, another ordinary day. I never imagined that meeting you there would become one of the most important moments of my life. What seemed like a simple introduction turned into the start of something so meaningful.
+From that day on, we shared conversations, laughs, unforgettable memories, and moments that brought us closer together. We learned more about each other, supported one another through different situations, and slowly built the relationship we have today.
+Looking back, I'm grateful that we were both there on Ben's birthday. If things had happened differently, maybe our paths wouldn't have crossed. It's amazing how one ordinary day became the beginning of our beautiful story</em></font>
+<br><br>
+
+<h1> PHOTO</h1>
+
+<a href="coli.jpg" target="_blank">
+  <img src="coli.jpg" width="300" style="margin-right: 40px;"/>
+</a>
+<a href="coli1.jpg" target="_blank">
+  <img src="coli1.jpg" width="300" style="margin-right: 40px;"/>
+</a>
+<a href="coli12.jpg" target="_blank">
+  <img src="coli12.jpg" width="300" style="margin-right: 40px;"/>
+</a>
+<a href="coli21.jpg" target="_blank">
+  <img src="coli21.jpg" width="300" style="margin-right: 40px;"/>
+</a>
+
+<button onclick="playMusic()">▶ Play Our Song</button>
+
+<audio id="music" loop>
+    <source src="colimusic.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+function playMusic() {
+    var audio = document.getElementById("music");
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
+}
+</script> 
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
